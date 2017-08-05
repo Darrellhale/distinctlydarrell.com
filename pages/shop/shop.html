@@ -36,6 +36,7 @@
         </center>
         <br>
         
+        <!--
         <div class="rapme">
         
             <div class="flex-container">
@@ -76,15 +77,90 @@
             </div>
             
         </div>
+        -->
         
         <br>
         <center>
-            <button style="border-radius:20px; background-color:#AB12F3"><a href="distinctlydarrell.bigcartel.com">Big Cartel Store</a></button>
+            <button style="border-radius:20px; background-color:#AB12F3"><a href="distinctlydarrell.bigcartel.com">$ Online Store $</a></button>
         </center>
         <br>
     
         
-            <br>
+        <center>
+            <h2>FALL 2017 Lookbook</h2>
+            
+            
+        </center>    
+        
+        
+        <div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="lb1.PNG" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="lb2.JPG" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="lb3.JPG" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+            
+    <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="lb4.PNG" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+            
+    <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="lb5.JPG" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+            
+    <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="lb6.PNG" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+        
+        
+        <script>
+            var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none"; 
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1} 
+    slides[slideIndex-1].style.display = "block"; 
+    setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+        </script>
+        
+        
+        <br>
         <center>
             <button style="border-radius:20px; background-color:#FF00FF"><a href="../../index.html">Home</a></button>
         </center>
